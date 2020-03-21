@@ -57,8 +57,8 @@
     <!-- eslint-disable-next-line max-len -->
     <section class="flex flex-col items-center flex-no-wrap p-5 lg:px-24 py-8 justify-between w-full">
       <h1 class="font-bold mb-30 text-5xl">How it work</h1>
-      <div class="flex flex-row items-center justify-center">
-        <div class="flex flex-col w-5/12 bg-gray-200 p-10">
+      <div class="flex flex-col items-center lg:flex-row items-center justify-center">
+        <div class="flex flex-col lg-full lg:w-5/12 bg-gray-200 p-10">
           <span>
             <!-- eslint-disable -->
             <h3 class="font-semibold text-xl pb-3">Select symptoms or an illness</h3>
@@ -76,15 +76,15 @@
           </span>
         </div>
         <div>
-          <img class="ello ml-20 hidden lg:flex" src="../assets/img/mock2.png" alt="">
+          <img class="ello lg:ml-20 lg:flex" src="../assets/img/mock2.png" alt="">
         </div>
       </div>
     </section>
     <!-- eslint-disable-next-line max-len -->
-    <section class="flex flex-col lg:flex-row flex-no-wrap p-5 lg:px-24 py-8 justify-between w-full bg-blue-100">
-      <p class="text-3xl lg:text-5xl">Download on your device</p>
-      <a class="flex w-9/12 lg:w-3/12" href="">
-        <img class="object-contain" src="../assets/img/play.png" alt="">
+    <section class="flex flex-col items-center lg:items-start lg:flex-row flex-no-wrap p-5 lg:px-24 py-8 justify-between w-full bg-blue-100">
+      <p class="text-3xl mb-8 lg:mb-0 lg:text-5xl">Download on your device</p>
+      <a class="flex w-7/12 lg:w-3/12" href="">
+        <img class="w-full object-contain" src="../assets/img/play.png" alt="">
       </a>
     </section>
         <!-- eslint-disable-next-line max-len -->
@@ -104,7 +104,7 @@
         </div>
       </div>
     </section>
-    <footer class="flex flex-row flex-no-wrap px-24 py-8 justify-between w-full">
+    <footer class="flex flex-row flex-no-wrap p-5 lg:px-24 py-8 justify-between w-full">
       <div class="flex flex-col flex-no-wrap font-semibold">
         <p> &copy; copyright. Itoju 2020</p>
         <a class="hover:text-blue-600 hover:underline" href="">Trep Labs Technologies</a>
